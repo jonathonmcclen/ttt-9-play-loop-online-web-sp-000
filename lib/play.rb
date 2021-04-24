@@ -41,7 +41,7 @@ def play
   amount_turns = 9
   the_turn = 0
   while the_turn < amount_turns
-  the_turn += 1
+    the_turn += 1
     turn(board)
   end 
 end
