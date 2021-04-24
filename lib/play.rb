@@ -42,6 +42,6 @@ def play
   the_turn = 0
   while the_turn < amount_turns
     the_turn += 1
-    turn(board)
+    turn
   end 
 end
